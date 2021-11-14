@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Title</title>
+    </head>
+    <body>
+        <!--HEADER-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Max</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="bx bx-home nav__icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class="bx bx-user nav__icon"></i>Profile
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class="bx bx-book nav__icon"></i>Education
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bx-receipt nav__icon"></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="bx bx-briefcase nav__icon"></i
+                                >Experience
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class="bx bx-award nav__icon"></i
+                                >Certificates
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img
+                                    src="img/cv_max.jpg"
+                                    alt="photo"
+                                    class="home__img"
+                                />
+
+                                <h1 class="home__title">
+                                    Max <b>Medvediev</b>
+                                </h1>
+                                <h3 class="home__profession">Web developer</h3>
+
+                                <!-- generate and download the pdf. -->
+                                <div>
+                                    <a
+                                        download=""
+                                        href="./pdf/Medvediev.pdf"
+                                        class="home__button-load"
+                                        >Download</a
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class="bx bx-map home__icon"></i>Kyiv -
+                                    Ukraine
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-envelope home__icon"></i>
+                                    medvediev.m91@gmail.com
+                                </span>
+                                <a
+                                    href="tel:+380957509101"
+                                    class="home__information"
+                                >
+                                    <i class="bx bx-phone home__icon"></i> +38
+                                    095 750 91 01
+                                </a>
+                            </div>
+                        </div>
+
+                        <i
+                            class="bx bx-moon change-theme"
+                            title="Theme"
+                            id="theme-button"
+                        ></i>
+
+                        <i
+                            class="bx bx-download generate-pdf"
+                            title="Generate PDF"
+                            id="resume-button"
+                        ></i>
+                    </section>
+
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a
+                                href="https://www.linkedin.com/in/maksym-medvediev-a90530166/"
+                                target="_blank"
+                                class="social__link"
+                            >
+                                <i
+                                    class="bx bxl-linkedin-square social__icon"
+                                ></i
+                                >LinkedIN
+                            </a>
+                            <a
+                                href="https://t.me/m2mdv"
+                                target="_blank"
+                                class="social__link"
+                            >
+                                <i class="bx bxl-telegram social__icon"></i
+                                >Telegram
+                            </a>
+                            <a
+                                href="https://github.com/MedvedievMaksym"
+                                target="_blank"
+                                class="social__link"
+                            >
+                                <i class="bx bxl-github social__icon"></i>GitHub
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__experience bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        Master HTML and CSS
+                                    </h3>
+                                    <span class="education__studies"
+                                        >Udemy Courses</span
+                                    >
+                                    <span class="education__year">2019</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        Modern JavaScript
+                                    </h3>
+                                    <span class="education__studies"
+                                        >Udemy Courses</span
+                                    >
+                                    <span class="education__year"
+                                        >2019 - 2020</span
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        React - The Complete Guide (Learn Now)
+                                    </h3>
+                                    <span class="education__studies"
+                                        >Udemy Courses</span
+                                    >
+                                    <span class="education__year">2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> HTML
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> CSS
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>
+                                    JavaScript
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> React
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">
+                                        Web Development
+                                    </h3>
+                                    <span class="experience__company"
+                                        >Writing a landing page using HTML and
+                                        CSS</span
+                                    >
+                                    <p class="experience__description">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Aperiam at debitis
+                                        expedita in nam nostrum quidem ratione
+                                        sequi sunt, suscipit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">
+                                        Web Development
+                                    </h3>
+                                    <span class="experience__company"
+                                        >Build pages using FlexBox and
+                                        Grid</span
+                                    >
+                                    <p class="experience__description">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Aperiam at debitis
+                                        expedita in nam nostrum quidem ratione
+                                        sequi sunt, suscipit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">
+                                        Web Development
+                                    </h3>
+                                    <span class="experience__company"
+                                        >Make a web page interactive use
+                                        JS</span
+                                    >
+                                    <p class="experience__description">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Aperiam at debitis
+                                        expedita in nam nostrum quidem ratione
+                                        sequi sunt, suscipit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    Completed course Web-developer 2021
+                                </h3>
+                                <p class="certificate__description">
+                                    I studied - modern, semantic and accessible
+                                    HTML5; How to make websites work on every
+                                    possible mobile device (responsive design)
+                                    Important CSS concepts such as the box
+                                    model, positioning schemes, inheritance;
+                                    modern CSS3, including flexbox and CSS Grid
+                                    for layout
+                                </p>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    Completed course JS-developer 2021
+                                </h3>
+                                <p class="certificate__description">
+                                    I studied - JavaScript fundamentals; Modern
+                                    OOP: Classes, constructors, prototypal
+                                    inheritance, encapsulation; Asynchronous
+                                    JavaScript: Event loop, promises,
+                                    async/await, AJAX calls and APIs
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+
+                        <div class="lang__container">
+                            <ul class="lang__content bd-grid">
+                                <li class="lang__name">
+                                    <span class="lang__circle"></span> Ukrainian
+                                    (Native)
+                                </li>
+                                <li class="lang__name">
+                                    <span class="lang__circle"></span> Russian
+                                </li>
+                                <li class="lang__name">
+                                    <span class="lang__circle"></span> English
+                                    (Pre-Intermediate)
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Interests</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class="bx bx-headphone interests__icon"></i>
+                                <span class="interests__name">Music</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bx-run interests__icon"></i>
+                                <span class="interests__name">Run</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bx-book-alt interests__icon"></i>
+                                <span class="interests__name">Read</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bx-dumbbell interests__icon"></i>
+                                <span class="interests__name">Fitness</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
+
+        <script src="js/html2pdf.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
